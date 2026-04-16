@@ -1,0 +1,19 @@
+{
+  "vision_settings": {
+    "fov_x": 120,
+    "fov_y": 80,
+    "color_target": "purple",
+    "sensitivity": 0.85
+  },
+  "automation": {
+    "method": "arduino_hid",
+    "com_port": "COM3",
+    "smoothing": 4.5,
+    "aim_lock": true
+  },
+  "overlay": {
+    "draw_fov": true,
+    "show_status": true,
+    "opacity": 0.5
+  }
+}
